@@ -38,6 +38,7 @@ properties
   - spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
   - spring.datasource.username=root
   - spring.datasource.password=yourpassword
+    
 **Note**: You must create the inventory_db database manually in MySQL before running.
 
 ## Install dependencies and build:
