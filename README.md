@@ -40,15 +40,15 @@ properties
   - spring.datasource.password=yourpassword
 ## Note: You must create the inventory_db database manually in MySQL before running.
 
-# Install dependencies and build:
+## Install dependencies and build:
 
 bash
-./mvnw clean install
+- ./mvnw clean install
 
-# Start the Spring Boot server:
+## Start the Spring Boot server:
 
 bash
-./mvnw spring-boot:run
+- ./mvnw spring-boot:run
 The Backend API will run at http://localhost:8080.
 
 ## Frontend Setup
