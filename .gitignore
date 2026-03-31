@@ -1,0 +1,22 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java / Maven
+target/
+build/
+out/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env
+.env
