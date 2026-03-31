@@ -29,7 +29,7 @@ A full-stack Inventory Management application built with **Spring Boot** (backen
 ## Backend Setup
 1. **Navigate to the backend folder**:
    ```bash
-   cd inventory-backend/inventory-backend
+   - cd inventory-backend/inventory-backend
    
 **Configure the database:**
   - Open src/main/resources/application.properties.
@@ -56,17 +56,17 @@ The Backend API will run at http://localhost:8080.
 1.**Navigate to the frontend folder**:
 
 bash
-cd inventory-frontend
+- cd inventory-frontend
 
 2.**Install dependencies**:
 
 bash
-npm install
+- npm install
 
 3.**Start the development server**:
 
 bash
-npm run dev
+- npm run dev
 The Frontend will run at http://localhost:5173.
 
 ## Connecting Frontend & Backend
