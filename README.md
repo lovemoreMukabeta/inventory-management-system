@@ -30,14 +30,15 @@ A full-stack Inventory Management application built with **Spring Boot** (backen
 1. **Navigate to the backend folder**:
    ```bash
    cd inventory-backend/inventory-backend
-Configure the database:
+   
+**Configure the database:**
 
-Open src/main/resources/application.properties.
-Ensure the MySQL URL, username, and password match your local environment:
+- ** Open src/main/resources/application.properties.
+- ** Ensure the MySQL URL, username, and password match your local environment:
 properties
-spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+- ** spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
+- ** spring.datasource.username=root
+- ** spring.datasource.password=yourpassword
 ## Note: You must create the inventory_db database manually in MySQL before running.
 
 # Install dependencies and build:
@@ -51,7 +52,7 @@ bash
 ./mvnw spring-boot:run
 The Backend API will run at http://localhost:8080.
 
-Frontend Setup
+## Frontend Setup
 
 1.**Navigate to the frontend folder**:
 
