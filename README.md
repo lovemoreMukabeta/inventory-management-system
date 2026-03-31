@@ -71,39 +71,39 @@ The Frontend will run at http://localhost:5173.
 
 # Connecting Frontend & Backend
 
-## The frontend is configured to communicate with the backend via the base URL http://localhost:8080.
-## Authentication tokens are sent in the Authorization: Bearer <TOKEN> header for protected requests.
-## CORS is enabled in the backend to allow requests from http://localhost:5173.
+# The frontend is configured to communicate with the backend via the base URL http://localhost:8080.
+# Authentication tokens are sent in the Authorization: Bearer <TOKEN> header for protected requests.
+# CORS is enabled in the backend to allow requests from http://localhost:5173.
 
 Usage
 
-## Login/Register: Create an account or sign in as an Admin or User.
-## Dashboard: View high-level statistics of your current inventory.
-## Inventory: Navigate to the Inventory page to add new products or manage existing ones.
-## Admin: As an administrator, access the "Users" page to view and manage roles.
-## Logout: Securely end your session via the logout button in the sidebar.
+# Login/Register: Create an account or sign in as an Admin or User.
+# Dashboard: View high-level statistics of your current inventory.
+# Inventory: Navigate to the Inventory page to add new products or manage existing ones.
+# Admin: As an administrator, access the "Users" page to view and manage roles.
+# Logout: Securely end your session via the logout button in the sidebar.
 
 Dependencies
 
 Backend
-## Spring Boot Starter Web
-## Spring Boot Starter Security (JWT)
-## Spring Data JPA
-## MySQL Connector J
-## Lombok
-## JJWT (JSON Web Token implementation)
+# Spring Boot Starter Web
+# Spring Boot Starter Security (JWT)
+# Spring Data JPA
+# MySQL Connector J
+# Lombok
+# JJWT (JSON Web Token implementation)
 
 Frontend
 
-## React 19 + TypeScript
-## Vite
-## Tailwind CSS 4.0
-## Lucide React
-## React Router DOM 7
-## Fetch API for networking
+# React 19 + TypeScript
+# Vite
+# Tailwind CSS 4.0
+# Lucide React
+# React Router DOM 7
+# Fetch API for networking
 
 Notes
 
-## Ensure MySQL is running and the inventory_db database exists before starting the backend.
-## The default Admin credentials (if pre-populated) or new registrations will use BCrypt for security.
-## Use localStorage to persist the JWT token across page refreshes.
+# Ensure MySQL is running and the inventory_db database exists before starting the backend.
+# The default Admin credentials (if pre-populated) or new registrations will use BCrypt for security.
+# Use localStorage to persist the JWT token across page refreshes.
